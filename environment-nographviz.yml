@@ -1,0 +1,16 @@
+name: Pearson-ML
+channels:
+  - intel
+  - conda-forge
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - hdbscan
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - seaborn
+  - pillow
+  - pyamg
+  - jupyterlab
