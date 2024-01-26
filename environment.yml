@@ -1,4 +1,4 @@
-name: KDM-ML
+name: erudio.sklearn
 channels:
   - intel
   - conda-forge
