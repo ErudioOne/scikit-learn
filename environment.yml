@@ -1,9 +1,9 @@
 name: erudio.sklearn
 channels:
-  - intel
   - conda-forge
+  - intel
 dependencies:
-  - python=3.12
+  - python=3.11 # for pyarrow
   - scikit-learn
   - hdbscan
   - pandas
@@ -17,3 +17,5 @@ dependencies:
   - pyamg
   - jupyterlab
   - scikit-learn-intelex
+  - jupyterlab-myst
+  - pyarrow

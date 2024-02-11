@@ -1,9 +1,9 @@
 name: erudio.sklearn.nographviz
 channels:
-  - intel
   - conda-forge
+  - intel
 dependencies:
-  - python=3.8
+  - python=3.11 # for pyarrow
   - scikit-learn
   - hdbscan
   - pandas
@@ -14,3 +14,5 @@ dependencies:
   - pillow
   - pyamg
   - jupyterlab
+  - jupyterlab-myst
+  - pyarrow
