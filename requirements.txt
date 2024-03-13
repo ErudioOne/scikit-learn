@@ -1,16 +1,16 @@
-# For Python 3.6+
+# For Python 3.11+
 scikit-learn
 hdbscan
 pandas
 numpy
 matplotlib
-jupyter
+jupyterlab
 seaborn
 pillow
 pyamg
+jupyterlab_myst
+pyarrow
 
 # This is only the Python bindings for graphviz
 # Need to use system installers for graphviz itself
 graphviz
-
-

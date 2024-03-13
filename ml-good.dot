@@ -1,9 +1,10 @@
 digraph Tree {
-node [shape=box, style="filled", color="black"] ;
-0 [label="Fav_movie_And Now for Something Completely Different <= 0.5\nsamples = 116\nvalue = [56, 60]\nclass = success", fillcolor="#f2f8fd"] ;
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Fav_movie_And Now for Something Completely Different <= 0.5\nsamples = 116\nvalue = [56.0, 60.0]\nclass = success", fillcolor="#f2f8fd"] ;
 1 [label="Fav_movie_Monty Python's Life of Brian <= 0.5\nsamples = 102\nvalue = [42, 60]\nclass = success", fillcolor="#c4e2f7"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="Fav_Game_Go <= 0.5\nsamples = 90\nvalue = [41, 49]\nclass = success", fillcolor="#dfeffb"] ;
+2 [label="Fav_Game_Go <= 0.5\nsamples = 90\nvalue = [41.0, 49.0]\nclass = success", fillcolor="#dfeffb"] ;
 1 -> 2 ;
 3 [label="Fav_Game_Longing for the sweet release of death <= 0.5\nsamples = 80\nvalue = [40, 40]\nclass = failure", fillcolor="#ffffff"] ;
 2 -> 3 ;
